@@ -46,7 +46,6 @@
 
     (defun runs-on-gem-pickup ()
       ;; Code here runs on any scout fly pickup
-
       (none)
       )
 

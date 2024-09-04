@@ -3422,8 +3422,12 @@ This commonly includes things such as:
               (vector<-cspace! (new 'stack-no-clear 'vector) (-> this node-list data (-> this enemy-info gem-joint)))
               )
             )
+        ;; [COMBA] this spawns the gem when the enemy is killed
         (birth-pickup-at-point a0-18 (pickup-type gem) 1.0 #t *entity-pool* (-> this fact))
         )
+
+        ;; [COMBA] here something happens when you kill a metalhead
+        ;; (send-event *target* 'get-pickup (pickup-type gem) 1.0)
       )
     (logclear! (-> this enemy-flags) (enemy-flag vulnerable vulnerable-backup))
     (logclear! (-> this focus-status) (focus-status dangerous))
@@ -3443,6 +3447,7 @@ This commonly includes things such as:
       (when (zero? (-> this hit-points))
         (add-to-kill-stats this (-> this incoming))))
     )
+
   (none)
   )
 
