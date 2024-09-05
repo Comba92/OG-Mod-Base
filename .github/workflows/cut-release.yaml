@@ -22,11 +22,11 @@ jobs:
     uses: open-goal/mod-bundling-tools/.github/workflows/mod-bundler.yml@v1
     with:
       semverBump: ${{ inputs.bump }}
-      metadataName: "Test Mod Bundle"
-      metadataDescription: "This is a test mod bundle. 2"
-      metadataSupportedGames: "jak1"
-      metadataAuthors: "barg,vaser"
-      metadataTags: "rng,gameplay-mod"
+      metadataName: "Skull gems autocollector"
+      metadataDescription: "Autocollects skull gems whenever a metalhead is killed"
+      metadataSupportedGames: "jak2"
+      metadataAuthors: "comba92"
+      metadataTags: "quality-of-life"
       metadataWebsiteUrl: "https://www.example.com/please/change/me"
       toolingRepo: "OpenGOAL-Mods/OG-Mod-Base"
       gameAssetsDir: "game/assets"
