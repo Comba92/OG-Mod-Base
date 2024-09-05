@@ -27,7 +27,7 @@ jobs:
       metadataSupportedGames: "jak2"
       metadataAuthors: "comba92"
       metadataTags: "quality-of-life"
-      metadataWebsiteUrl: "https://www.example.com/please/change/me"
+      metadataWebsiteUrl: "https://github.com/Comba92/OG-Skull-Gems-Autocollect"
       toolingRepo: "OpenGOAL-Mods/OG-Mod-Base"
       gameAssetsDir: "game/assets"
     secrets:
