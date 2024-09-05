@@ -26,7 +26,7 @@ jobs:
       metadataDescription: "Autocollects skull gems whenever a metalhead is killed"
       metadataSupportedGames: "jak2"
       metadataAuthors: "comba92"
-      metadataTags: "quality-of-life"
+      metadataTags: "gameplay-mod"
       metadataWebsiteUrl: "https://github.com/Comba92/OG-Skull-Gems-Autocollect"
       toolingRepo: "OpenGOAL-Mods/OG-Mod-Base"
       gameAssetsDir: "game/assets"
